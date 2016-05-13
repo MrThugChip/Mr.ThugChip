@@ -1,0 +1,21 @@
+function draw() {
+  var canvas = document.getElementById('canvas');
+  if (canvas.getContext) {
+    var ctx = canvas.getContext('2d');
+
+    ctx.fillStyle="#FF0000";
+ctx.fillRect(20,20,200,200); 
+    
+    ctx.fillstyle="blue";
+    ctx.fillRect(0,0,100,500);
+    
+    ctx.fillStyle="#000000";
+    
+    ctx.fillRect(25,25,55,55);
+    ctx.clearRect(40,45,30,30);
+    
+     ctx.fillRect(150,25,55,55);
+    ctx.clearRect(165,45,30,30);
+    
+  }
+}
